@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <title id="title">Personal Portfolio Project - G. Ming</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+  </head>
+  <body>
+    <!--Header includes navigation bar and welcome section-->
+    <div id="header">
+      <div class="container">
+        <nav id="navbar" class="nav-bar">
+          <img src="https://t4.ftcdn.net/jpg/02/76/69/13/360_F_276691386_nl0MPBlwN5sgVhMHmkdqf5nWCHUSEaWs.jpg" class="logo" alt="logo with text G.Ming">
+          <ul>
+            <li><a href="#header" accesskey="h" class="nav-link">Home</a></li>
+            <li><a href="#about" accesskey="a" class="nav-link">About</a></li>
+            <li><a href="#services" accesskey="s" class="nav-link">Services</a></li>
+            <li><a href="#projects" accesskey="p" class="nav-link">Projects</a></li>
+            <li><a href="#contact" accesskey="c" class="nav-link">Contact</a></li>
+            <i class="fas fa-times"></i>
+          </ul>
+          <i class="fas fa-bars"></i>
+        </nav> 
+        <section id="welcome-section" class="welcome-section">
+          <p>Aspring full-stack developer</p>
+          <h1>Hi, Im <span>Ming</span> Gong</br>from Toronto Canada</h1>
+        </section>
+      </div>
+    </div>
+    <!--"about me" section-->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-column-1">
+            <img src="https://i.pinimg.com/736x/a3/8f/45/a38f451d162c99987d3cb0b1ddabe73a.jpg" id="about-me-image">
+          </div>
+          <div class="about-column-2">
+            <h1 class="sub-title">About me</h1>
+            <p class="about-info">Hi there! I’m a passionate aspiring full stack developer with a love for creating robust and user-friendly web applications.  I’m proficient in HTML and CSS. I will soon hold the Web Development Certification from freeCodeCamp. Crafting beautiful and responsive user interfaces is my forte. Feel free to <span class="highlight-hover">HOVER</span> the links below to find out more!</p>
+
+            <p class="tab-links" id="skills-link">Skills</p>
+            <p class="tab-links" id="experience-link">Experience</p>
+            <p class="tab-links" id="accolades-link">Accolades</p>
+
+            <div class="tab-contents" id="skills-tab">
+              <ul>
+                <li><span>HTML</span><br>and web markup</li>
+                <li><span>CSS</span><br>styling and integration</li>
+                <li><span>Resonsive Design</span><br>with key design principles</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience-tab">
+              <ul>
+                <li><span>~2022</span><br>University of Toronto</li>
+                <li><span>2023</span><br>Tutor SavvyUni University level classes </li>
+                <li><span>2024</span><br>FreeCodeCamp HTML&CSS</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="accolades-tab">
+              <ul>
+                <li><span>Waterloo</span><br>Cayley math contest school champion</li>
+                <li><span>Sight Translation</span><br>contest champion with prize pool</li>
+                <li><span>4.0+ GPA</span><br>programing related UNI courses</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Service section-->
+    <div class="services">
+      <div class="container">
+        <h1 class="sub-title" id="services">My services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fas fa-code"></i>
+            <h2>Responsive Web Design</h2>
+            <p>Responsive web design is creating websites and applications that adapt seamlessly to different screen sizes and devices. </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fas fa-file-code"></i>
+            <h2>Cross Browser Development</h2>
+            <p>Cross-browser development ensures that your website works correctly on various browsers and operating systems. </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fas fa-user"></i>
+            <h2>User Interface Maintenance</h2>
+            <p>UI maintenance involves keeping interfaces functional, visually appealing, and aligned with user needs. </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--section for past personal projects-->
+    <section id="projects">
+      <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="project-list">
+          <div class="project-tile">
+            <img src="https://shots.codepen.io/username/pen/oNoXeav-800.jpg?version=1643416777" alt="a professional balance sheet">
+            <div class="layer">
+              <h3>Balance Sheet</h3>
+              <p>The project arranges financial information using pseudo-selectors.</p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="project-tile">
+            <img src="https://user-images.githubusercontent.com/78083890/180658499-28c734b3-3c68-49bf-ba08-0cd02395fe58.png" alt="a cartoon city sky line with buildings of difference shapes and styles">
+            <div class="layer">
+              <h3>City Skyline</h3>
+              <p>The project shows you the city's skyline, resizing the page will change the time of day!</p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="project-tile">
+            <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1661440230914/OYAEy6Hl2.png?auto=compress,format&format=webp" alt="a magazine">
+            <div class="layer">
+              <h3>Magazine</h3>
+              <p>The project shows you the layout of a magazine using CSS Grid design.</p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </section>
+    <!--contacts section: note to add links for facebook, linkedin, instagram, and attach a CV-->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa fa-envelope"></i>contact ming.gong1548@gmail.com</p>
+            <p><i class="fa fa-phone"></i>647-713-9456</p>
+            <div class="social-icons">
+              <a href="https://github.com/gitmeabreak" id="profile-link" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="" id="facebook-link" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="" id="linkdin-link" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="" id="instagram-link" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+            <a href="" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Send me a message!" ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="copyright">
+      <p>Copyright © Ming. Made with <i class="fa fa-heart"></i> by Ming Gong</p>
+    </div>
+  </body>
+</html>
